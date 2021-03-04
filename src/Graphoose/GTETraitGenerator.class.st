@@ -130,7 +130,7 @@ GTETraitGenerator class >> packageName [
 { #category : #initialization }
 GTETraitGenerator class >> prefix [
 
-	^ #Famix
+	^ #FamixGTE
 ]
 
 { #category : #'as yet unclassified' }
