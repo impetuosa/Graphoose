@@ -11,7 +11,9 @@ BaselineOfGraphoose >> baseline: spec [
 		baseline: #Graphite
 		with: [ spec repository: 'github://sbragagnolo/Graphite' ].
 	spec package: #Graphoose with: [ spec requires: #Graphite ].
-	spec package: #'Graphoose-Traits' with: [ spec requires: #Graphoose ].
+	spec package:#'Graphoose-Query' with: [ spec requires: #Graphoose ].
+	spec package: #'Graphoose-Traits' with: [ spec requires: #(Graphoose 'Graphoose-Query') ].
+	
 	spec
 		package: #'Graphoose-CoasterCollector-Generator'
 		with: [ spec requires: #Graphoose ].
