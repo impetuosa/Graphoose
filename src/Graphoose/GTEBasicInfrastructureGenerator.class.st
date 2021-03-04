@@ -2,14 +2,13 @@ Class {
 	#name : #GTEBasicInfrastructureGenerator,
 	#superclass : #FamixMetamodelGenerator,
 	#instVars : [
-		'#entity => FamixDeprecatedSlot message: \'This variable should not be used anymore. XXXEntity is now the default root and you don\'\'t need to declare you inherit from it. If you wish to add property to it, get the class with `self ensureClassNamed: #Entity`.\'',
-		'#sourceAnchor',
-		'#sourceLanguage',
-		'#sourcedEntity',
-		'#comment',
-		'#namedEntity',
-		'#sourceTextAnchor',
-		'#unknownSourceLanguage'
+		'sourceAnchor',
+		'sourceLanguage',
+		'sourcedEntity',
+		'comment',
+		'namedEntity',
+		'sourceTextAnchor',
+		'unknownSourceLanguage'
 	],
 	#category : #Graphoose
 }
