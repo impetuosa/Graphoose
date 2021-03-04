@@ -1,10 +1,10 @@
 Class {
-	#name : #FMGTEProperty,
+	#name : #GTEProperty,
 	#superclass : #GTEReferenceToOne,
 	#category : #'Graphoose-slots'
 }
 
 { #category : #testing }
-FMGTEProperty >> isFameSlot [
+GTEProperty >> isFameSlot [
 	^ true
 ]

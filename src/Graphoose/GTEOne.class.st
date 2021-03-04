@@ -2,7 +2,7 @@
 Adaptation of graphite toOne for moose 
 "
 Class {
-	#name : #FMGTEOne,
+	#name : #GTEOne,
 	#superclass : #GTEReferenceToOne,
 	#instVars : [
 		'target',
@@ -12,22 +12,22 @@ Class {
 }
 
 { #category : #testing }
-FMGTEOne >> isFameSlot [
+GTEOne >> isFameSlot [
 	^ true
 ]
 
 { #category : #testing }
-FMGTEOne >> isToMany [
+GTEOne >> isToMany [
 	^ false
 ]
 
 { #category : #testing }
-FMGTEOne >> isToOne [
+GTEOne >> isToOne [
 	^ true
 ]
 
 { #category : #testing }
-FMGTEOne >> printOn: aStream [
+GTEOne >> printOn: aStream [
 	aStream
 		store: self name;
 		nextPutAll: ' => ';
@@ -41,7 +41,7 @@ FMGTEOne >> printOn: aStream [
 ]
 
 { #category : #testing }
-FMGTEOne >> targetClass [
+GTEOne >> targetClass [
 	target isSymbol
 		ifTrue: [ target := self class environment
 				at: target
@@ -50,12 +50,12 @@ FMGTEOne >> targetClass [
 ]
 
 { #category : #testing }
-FMGTEOne >> targetClassName [
+GTEOne >> targetClassName [
 	^ target isSymbol ifTrue: [ target ] ifFalse: [ target name ]
 ]
 
 { #category : #testing }
-FMGTEOne >> type: aTargetClassOrSymbol opposite: anInverseSymbol [
+GTEOne >> type: aTargetClassOrSymbol opposite: anInverseSymbol [
 	target := aTargetClassOrSymbol.
 	inverseName := anInverseSymbol
 ]

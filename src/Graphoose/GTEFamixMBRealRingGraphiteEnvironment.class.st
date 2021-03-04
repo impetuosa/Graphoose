@@ -1,22 +1,22 @@
 Class {
-	#name : #FmxMBRealRingGraphiteEnvironment,
+	#name : #GTEFamixMBRealRingGraphiteEnvironment,
 	#superclass : #FmxMBRealRingEnvironment,
 	#category : #'Graphoose-environment'
 }
 
 { #category : #initialization }
-FmxMBRealRingGraphiteEnvironment >> slotNamed: slotName [
-	^ (RGUnknownSlot named: slotName asSymbol) expression: #FMGTEProperty
+GTEFamixMBRealRingGraphiteEnvironment >> slotNamed: slotName [
+	^ (RGUnknownSlot named: slotName asSymbol) expression: #GTEProperty
 ]
 
 { #category : #initialization }
-FmxMBRealRingGraphiteEnvironment >> slotNamed: slotName cardinality: cardinality type: type opposite: oppositeName [
+GTEFamixMBRealRingGraphiteEnvironment >> slotNamed: slotName cardinality: cardinality type: type opposite: oppositeName [
 
 	| cardinalityClassName |
 	
 	cardinalityClassName := cardinality = #one
-		ifTrue: [ #FMGTEOne ]
-		ifFalse: [ #FMGTEMany ].
+		ifTrue: [ #GTEOne ]
+		ifFalse: [ #GTEMany ].
 		
 	^ (RGUnknownSlot named: slotName asSymbol)
 		 expression: ('{1} type: #{2} opposite: #{3}' 

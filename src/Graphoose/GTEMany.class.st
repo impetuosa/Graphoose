@@ -2,7 +2,7 @@
 Adaptation of graphite toMany for moose 
 "
 Class {
-	#name : #FMGTEMany,
+	#name : #GTEMany,
 	#superclass : #GTEReferenceToMany,
 	#instVars : [
 		'target',
@@ -12,22 +12,22 @@ Class {
 }
 
 { #category : #testing }
-FMGTEMany >> isFameSlot [
+GTEMany >> isFameSlot [
 	^ true
 ]
 
 { #category : #testing }
-FMGTEMany >> isToMany [
+GTEMany >> isToMany [
 	^ true
 ]
 
 { #category : #testing }
-FMGTEMany >> isToOne [
+GTEMany >> isToOne [
 	^ false
 ]
 
 { #category : #testing }
-FMGTEMany >> printOn: aStream [
+GTEMany >> printOn: aStream [
 	aStream
 		store: self name;
 		nextPutAll: ' => ';
@@ -42,7 +42,7 @@ FMGTEMany >> printOn: aStream [
 ]
 
 { #category : #testing }
-FMGTEMany >> targetClass [
+GTEMany >> targetClass [
 	target isSymbol
 		ifTrue: [ target := self class environment
 				at: target
@@ -51,12 +51,12 @@ FMGTEMany >> targetClass [
 ]
 
 { #category : #testing }
-FMGTEMany >> targetClassName [
+GTEMany >> targetClassName [
 	^ target isSymbol ifTrue: [ target ] ifFalse: [ target name ]
 ]
 
 { #category : #testing }
-FMGTEMany >> type: aTargetClassOrSymbol opposite: anInverseSymbol [
+GTEMany >> type: aTargetClassOrSymbol opposite: anInverseSymbol [
 	target := aTargetClassOrSymbol.
 	inverseName := anInverseSymbol
 ]
