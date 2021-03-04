@@ -1047,7 +1047,7 @@ GTETraitGenerator >> defineProperties [
 	((tCanBeFinal property: #isFinal type: #Boolean) 
 		comment: 'Entity can be declared final').
 		
-	((tFileAnchor property: #correspondingFile type: #FamixTFile) 
+	((tFileAnchor property: #correspondingFile type: #FamixGTETFile) 
 		comment: 'File associated to this source anchor').
 	((tFileAnchor property: #encoding type: #String) 
 		comment: 'A string representing the encoding of a file').
@@ -1098,11 +1098,11 @@ GTETraitGenerator >> defineProperties [
 	((tHasImmediateSource property: #source type: #String)
 		comment: 'Actual source code of the source entity').
 		
-	((tMultipleFileAnchor property: #fileAnchors type: #FamixTFileAnchor)
+	((tMultipleFileAnchor property: #fileAnchors type: #FamixGTETFileAnchor)
 		comment: 'All source code definition files';
 		multivalued).
 		
-	(tRelativeSourceAnchor property: #relatedAnchor type: #FamixTSourceAnchor) comment: 'Source anchor to which I am relative.'.
+	(tRelativeSourceAnchor property: #relatedAnchor type: #FamixGTETSourceAnchor) comment: 'Source anchor to which I am relative.'.
 	(tRelativeSourceAnchor property: #startPos type: #Number) comment: 'Start position in the source'.
 	(tRelativeSourceAnchor property: #endPos type: #Number) comment: 'Stop position in the source'
 ]
