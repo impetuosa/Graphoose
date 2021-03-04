@@ -19,3 +19,8 @@ GCCEntity class >> metamodel [
 	<generated>
 	^ GCCModel metamodel
 ]
+
+{ #category : #accessing }
+GCCEntity >> graph [
+ 	^ mooseModel graph
+]

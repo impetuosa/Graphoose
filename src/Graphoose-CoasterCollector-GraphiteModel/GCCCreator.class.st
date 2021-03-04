@@ -2,8 +2,8 @@ Class {
 	#name : #GCCCreator,
 	#superclass : #GCCEntity,
 	#instVars : [
-		'#name => FMGTEProperty',
-		'#coasters => FMGTEMany type: #GCCCoaster opposite: #creator'
+		'#coasters => FMGTEMany type: #GCCCoaster opposite: #creator',
+		'#name => FMGTEProperty'
 	],
 	#category : #'Graphoose-CoasterCollector-GraphiteModel-Entities'
 }

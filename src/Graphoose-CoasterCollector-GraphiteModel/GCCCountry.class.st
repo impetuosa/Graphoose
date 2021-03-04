@@ -2,8 +2,8 @@ Class {
 	#name : #GCCCountry,
 	#superclass : #GCCEntity,
 	#instVars : [
-		'#name => FMGTEProperty',
-		'#coasters => FMGTEMany type: #GCCCoaster opposite: #country'
+		'#coasters => FMGTEMany type: #GCCCoaster opposite: #country',
+		'#name => FMGTEProperty'
 	],
 	#category : #'Graphoose-CoasterCollector-GraphiteModel-Entities'
 }

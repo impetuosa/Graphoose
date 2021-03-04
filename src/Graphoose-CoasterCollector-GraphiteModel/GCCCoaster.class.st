@@ -2,11 +2,11 @@ Class {
 	#name : #GCCCoaster,
 	#superclass : #GCCEntity,
 	#instVars : [
+		'#country => FMGTEOne type: #GCCCountry opposite: #coasters',
+		'#creator => FMGTEOne type: #GCCCreator opposite: #coasters',
 		'#image => FMGTEProperty',
 		'#owned => FMGTEProperty',
-		'#shape => FMGTEOne type: #GCCShape opposite: #coasters',
-		'#country => FMGTEOne type: #GCCCountry opposite: #coasters',
-		'#creator => FMGTEOne type: #GCCCreator opposite: #coasters'
+		'#shape => FMGTEOne type: #GCCShape opposite: #coasters'
 	],
 	#category : #'Graphoose-CoasterCollector-GraphiteModel-Entities'
 }
