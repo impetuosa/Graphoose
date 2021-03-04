@@ -34,7 +34,7 @@ FMGTEMany >> printOn: aStream [
 		nextPutAll: self class name.
 	aStream
 		nextPutAll: ' type: ';
-		store: self targetClass name.
+		store: self targetClassName.
 	inverseName
 		ifNotNil: [ aStream
 				nextPutAll: ' opposite: ';
@@ -48,6 +48,11 @@ FMGTEMany >> targetClass [
 				at: target
 				ifAbsent: [ self error: 'Cannot find class ' , target printString ] ].
 	^ target
+]
+
+{ #category : #testing }
+FMGTEMany >> targetClassName [
+	^ target isSymbol ifTrue: [ target ] ifFalse: [ target name ]
 ]
 
 { #category : #testing }
