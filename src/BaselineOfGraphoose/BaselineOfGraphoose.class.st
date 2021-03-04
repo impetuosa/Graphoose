@@ -25,5 +25,5 @@ BaselineOfGraphoose >> baseline: spec [
 	spec
 		group: #default
 		with:
-			#(Graphite 'Graphoose-Traits' 'Graphoose-CoasterCollector-Generator' 'Graphoose-CoasterCollector-GraphiteModel')
+			#(Graphite 'Graphoose-Traits' 'Graphoose-CoasterCollector-Generator' )
 ]
