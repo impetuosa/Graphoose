@@ -1,7 +1,6 @@
 Trait {
 	#name : #FamixGTETWithClasses,
 	#traits : 'FamixGTETWithTypes',
-	#classTraits : 'FamixGTETWithTypes classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

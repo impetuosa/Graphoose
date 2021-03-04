@@ -7,7 +7,6 @@ Trait {
 		'#parentBehaviouralEntity => GTEOne type: #FamixGTETWithLocalVariables opposite: #localVariables'
 	],
 	#traits : 'FamixGTETStructuralEntity',
-	#classTraits : 'FamixGTETStructuralEntity classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

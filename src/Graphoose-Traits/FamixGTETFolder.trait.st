@@ -7,7 +7,6 @@ Trait {
 		'#childrenFileSystemEntities => GTEMany type: #FamixGTETFileSystemEntity opposite: #parentFolder'
 	],
 	#traits : 'FamixGTETFileSystemEntity',
-	#classTraits : 'FamixGTETFileSystemEntity classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

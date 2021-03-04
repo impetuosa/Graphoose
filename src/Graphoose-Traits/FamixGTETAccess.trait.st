@@ -20,7 +20,6 @@ Trait {
 		'#variable => GTEOne type: #FamixGTETAccessible opposite: #incomingAccesses'
 	],
 	#traits : 'FamixGTETAssociation',
-	#classTraits : 'FamixGTETAssociation classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

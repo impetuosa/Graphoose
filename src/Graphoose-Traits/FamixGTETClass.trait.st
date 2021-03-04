@@ -8,7 +8,6 @@ A class is typically scoped in a namespace. To model nested or anonymous classes
 Trait {
 	#name : #FamixGTETClass,
 	#traits : 'FamixGTETInvocationsReceiver + FamixGTETPackageable + FamixGTETType + FamixGTETWithAttributes + FamixGTETWithComments + FamixGTETWithInheritances + FamixGTETWithMethods + GTETOODependencyQueries',
-	#classTraits : 'FamixGTETInvocationsReceiver classTrait + FamixGTETPackageable classTrait + FamixGTETType classTrait + FamixGTETWithAttributes classTrait + FamixGTETWithComments classTrait + FamixGTETWithInheritances classTrait + FamixGTETWithMethods classTrait + GTETOODependencyQueries classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

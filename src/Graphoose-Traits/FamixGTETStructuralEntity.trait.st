@@ -4,7 +4,6 @@ FAMIXStructuralEntity is the abstract superclass for basic data structure in the
 Trait {
 	#name : #FamixGTETStructuralEntity,
 	#traits : 'FamixGTETAccessible + FamixGTETInvocationsReceiver + FamixGTETNamedEntity + FamixGTETTypedEntity',
-	#classTraits : 'FamixGTETAccessible classTrait + FamixGTETInvocationsReceiver classTrait + FamixGTETNamedEntity classTrait + FamixGTETTypedEntity classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

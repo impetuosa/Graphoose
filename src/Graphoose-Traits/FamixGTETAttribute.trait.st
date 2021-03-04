@@ -8,7 +8,6 @@ Trait {
 		'#parentType => GTEOne type: #FamixGTETWithAttributes opposite: #attributes'
 	],
 	#traits : 'FamixGTETCanBeClassSide + FamixGTETStructuralEntity',
-	#classTraits : 'FamixGTETCanBeClassSide classTrait + FamixGTETStructuralEntity classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

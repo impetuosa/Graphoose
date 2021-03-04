@@ -8,7 +8,6 @@ When an entity is placed inside a namespace, the fully qualified name (mooseName
 Trait {
 	#name : #FamixGTETNamespace,
 	#traits : 'FamixGTETNamedEntity + GTETOODependencyQueries',
-	#classTraits : 'FamixGTETNamedEntity classTrait + GTETOODependencyQueries classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

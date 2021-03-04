@@ -5,7 +5,6 @@ Trait {
 		'#endPos => GTEProperty'
 	],
 	#traits : 'FamixGTETFileAnchor',
-	#classTraits : 'FamixGTETFileAnchor classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

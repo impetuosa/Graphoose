@@ -10,7 +10,6 @@ Trait {
 		'#packageOwner => GTEOne type: #FamixGTETWithPackages opposite: #packages'
 	],
 	#traits : 'FamixGTETNamedEntity',
-	#classTraits : 'FamixGTETNamedEntity classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

@@ -10,7 +10,6 @@ Trait {
 		'#parentType => GTEOne type: #FamixGTETWithMethods opposite: #methods'
 	],
 	#traits : 'FamixGTETCanBeClassSide + FamixGTETHasSignature + FamixGTETInvocable + FamixGTETNamedEntity + FamixGTETTypedEntity + FamixGTETWithClassScope + FamixGTETWithImplicitVariables + FamixGTETWithLocalVariables + FamixGTETWithParameters + FamixGTETWithReferences + FamixGTETWithStatements + GTETOODependencyQueries',
-	#classTraits : 'FamixGTETCanBeClassSide classTrait + FamixGTETHasSignature classTrait + FamixGTETInvocable classTrait + FamixGTETNamedEntity classTrait + FamixGTETTypedEntity classTrait + FamixGTETWithClassScope classTrait + FamixGTETWithImplicitVariables classTrait + FamixGTETWithLocalVariables classTrait + FamixGTETWithParameters classTrait + FamixGTETWithReferences classTrait + FamixGTETWithStatements classTrait + GTETOODependencyQueries classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

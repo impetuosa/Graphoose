@@ -7,7 +7,6 @@ Trait {
 		'#functionOwner => GTEOne type: #FamixGTETWithFunctions opposite: #functions'
 	],
 	#traits : 'FamixGTETHasSignature + FamixGTETNamedEntity + FamixGTETTypedEntity + FamixGTETWithParameters + FamixGTETWithStatements',
-	#classTraits : 'FamixGTETHasSignature classTrait + FamixGTETNamedEntity classTrait + FamixGTETTypedEntity classTrait + FamixGTETWithParameters classTrait + FamixGTETWithStatements classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

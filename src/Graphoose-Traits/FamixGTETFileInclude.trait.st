@@ -5,7 +5,6 @@ Trait {
 		'#target => GTEOne type: #FamixGTETWithFileIncludes opposite: #incomingIncludeRelations'
 	],
 	#traits : 'FamixGTETAssociation',
-	#classTraits : 'FamixGTETAssociation classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

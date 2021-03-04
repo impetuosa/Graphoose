@@ -5,7 +5,6 @@ Trait {
 		'#superclass => GTEOne type: #FamixGTETWithInheritances opposite: #subInheritances'
 	],
 	#traits : 'FamixGTETAssociation',
-	#classTraits : 'FamixGTETAssociation classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

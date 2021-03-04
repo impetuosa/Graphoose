@@ -23,7 +23,6 @@ Trait {
 		'#endPos => GTEProperty'
 	],
 	#traits : 'FamixGTETSourceAnchor',
-	#classTraits : 'FamixGTETSourceAnchor classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

@@ -7,7 +7,6 @@ Trait {
 		'#headerOwner => GTEOne type: #FamixGTETWithHeader opposite: #header'
 	],
 	#traits : 'FamixGTETFile',
-	#classTraits : 'FamixGTETFile classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

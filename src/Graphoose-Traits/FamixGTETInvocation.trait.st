@@ -18,7 +18,6 @@ Trait {
 		'#receiver => GTEOne type: #FamixGTETInvocationsReceiver opposite: #receivingInvocations'
 	],
 	#traits : 'FamixGTETAssociation',
-	#classTraits : 'FamixGTETAssociation classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

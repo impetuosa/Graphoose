@@ -18,7 +18,6 @@ Trait {
 		'#referredType => GTEOne type: #FamixGTETReferenceable opposite: #incomingReferences'
 	],
 	#traits : 'FamixGTETAssociation',
-	#classTraits : 'FamixGTETAssociation classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

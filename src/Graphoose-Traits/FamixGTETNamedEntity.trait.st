@@ -4,7 +4,6 @@ Trait {
 		'#name => GTEProperty'
 	],
 	#traits : 'FamixGTETSourceEntity + GTETEntityMetaLevelDependency',
-	#classTraits : 'FamixGTETSourceEntity classTrait + GTETEntityMetaLevelDependency classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 
