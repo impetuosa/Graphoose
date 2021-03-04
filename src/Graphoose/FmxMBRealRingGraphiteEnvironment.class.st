@@ -1,7 +1,7 @@
 Class {
 	#name : #FmxMBRealRingGraphiteEnvironment,
 	#superclass : #FmxMBRealRingEnvironment,
-	#category : #Graphoose
+	#category : #'Graphoose-environment'
 }
 
 { #category : #initialization }
