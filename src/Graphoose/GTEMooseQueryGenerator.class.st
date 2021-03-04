@@ -12,13 +12,13 @@ Class {
 { #category : #accessing }
 GTEMooseQueryGenerator class >> packageName [
 
-	^ #'Moose-Query'
+	^ #'Graphoose-Query'
 ]
 
 { #category : #accessing }
 GTEMooseQueryGenerator class >> prefix [
 
-	^ ''
+	^ 'GTE'
 ]
 
 { #category : #definition }
