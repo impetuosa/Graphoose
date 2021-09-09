@@ -8,6 +8,7 @@ Trait {
 		'#parentScope => GTEOne type: #FamixGTETWithGlobalVariables opposite: #globalVariables'
 	],
 	#traits : 'FamixGTETStructuralEntity',
+	#classTraits : 'FamixGTETStructuralEntity classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

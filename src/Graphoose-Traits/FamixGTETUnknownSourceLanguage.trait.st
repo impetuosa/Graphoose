@@ -1,6 +1,7 @@
 Trait {
 	#name : #FamixGTETUnknownSourceLanguage,
 	#traits : 'FamixGTETSourceLanguage',
+	#classTraits : 'FamixGTETSourceLanguage classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

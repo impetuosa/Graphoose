@@ -5,6 +5,7 @@ Trait {
 		'#user => GTEOne type: #FamixGTETTraitUser opposite: #outgoingTraitUsages'
 	],
 	#traits : 'FamixGTETAssociation',
+	#classTraits : 'FamixGTETAssociation classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

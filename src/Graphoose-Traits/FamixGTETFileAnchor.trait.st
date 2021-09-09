@@ -9,6 +9,7 @@ Trait {
 		'#fileName => GTEProperty'
 	],
 	#traits : 'FamixGTETSourceAnchor',
+	#classTraits : 'FamixGTETSourceAnchor classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

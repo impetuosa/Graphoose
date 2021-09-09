@@ -22,6 +22,7 @@ Trait {
 		'#annotationAttributeInstances => GTEMany type: #FamixGTETTypedAnnotationInstanceAttribute opposite: #annotationTypeAttribute'
 	],
 	#traits : 'FamixGTETAttribute',
+	#classTraits : 'FamixGTETAttribute classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

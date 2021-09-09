@@ -7,6 +7,7 @@ Trait {
 		'#entities => GTEMany type: #FamixGTETWithFiles opposite: #containerFiles'
 	],
 	#traits : 'FamixGTETFileSystemEntity',
+	#classTraits : 'FamixGTETFileSystemEntity classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

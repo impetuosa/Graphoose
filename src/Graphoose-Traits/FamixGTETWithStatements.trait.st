@@ -1,6 +1,7 @@
 Trait {
 	#name : #FamixGTETWithStatements,
 	#traits : 'FamixGTETSourceEntity + FamixGTETWithAccesses + FamixGTETWithInvocations',
+	#classTraits : 'FamixGTETSourceEntity classTrait + FamixGTETWithAccesses classTrait + FamixGTETWithInvocations classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

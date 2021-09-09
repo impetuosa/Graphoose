@@ -24,6 +24,7 @@ Trait {
 		'#next => GTEOne type: #FamixGTETAssociation opposite: #previous'
 	],
 	#traits : 'FamixGTETSourceEntity + GTETAssociationMetaLevelDependency',
+	#classTraits : 'FamixGTETSourceEntity classTrait + GTETAssociationMetaLevelDependency classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

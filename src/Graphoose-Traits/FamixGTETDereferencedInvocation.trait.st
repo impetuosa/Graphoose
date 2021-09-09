@@ -11,6 +11,7 @@ Trait {
 		'#referencer => GTEOne type: #FamixGTETWithDereferencedInvocations opposite: #dereferencedInvocations'
 	],
 	#traits : 'FamixGTETInvocation',
+	#classTraits : 'FamixGTETInvocation classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

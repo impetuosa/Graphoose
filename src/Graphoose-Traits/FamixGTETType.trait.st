@@ -12,6 +12,7 @@ Trait {
 		'#typedEntities => GTEMany type: #FamixGTETTypedEntity opposite: #declaredType'
 	],
 	#traits : 'FamixGTETNamedEntity + FamixGTETReferenceable',
+	#classTraits : 'FamixGTETNamedEntity classTrait + FamixGTETReferenceable classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

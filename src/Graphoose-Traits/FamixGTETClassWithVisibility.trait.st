@@ -1,6 +1,7 @@
 Trait {
 	#name : #FamixGTETClassWithVisibility,
 	#traits : 'FamixGTETClass + FamixGTETHasVisibility',
+	#classTraits : 'FamixGTETClass classTrait + FamixGTETHasVisibility classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

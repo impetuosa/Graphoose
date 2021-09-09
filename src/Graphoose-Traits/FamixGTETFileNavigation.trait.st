@@ -7,6 +7,7 @@ Trait {
 		'#endColumn => GTEProperty'
 	],
 	#traits : 'FamixGTETFileAnchor',
+	#classTraits : 'FamixGTETFileAnchor classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

@@ -8,6 +8,7 @@ Trait {
 		'#sourceAnchor => GTEOne type: #FamixGTETSourceAnchor opposite: #element'
 	],
 	#traits : 'FamixGTETWithComments + FamixGTETWithSourceLanguage',
+	#classTraits : 'FamixGTETWithComments classTrait + FamixGTETWithSourceLanguage classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

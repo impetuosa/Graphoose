@@ -1,6 +1,7 @@
 Trait {
 	#name : #FamixGTETCohesionCouplingMetrics,
 	#traits : 'FamixGTETPackage',
+	#classTraits : 'FamixGTETPackage classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

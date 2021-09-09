@@ -14,6 +14,7 @@ Instance Variables:
 Trait {
 	#name : #FamixGTETEnum,
 	#traits : 'FamixGTETType + FamixGTETWithEnumValues',
+	#classTraits : 'FamixGTETType classTrait + FamixGTETWithEnumValues classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

@@ -1,6 +1,7 @@
 Trait {
 	#name : #FamixGTETUnknownVariable,
 	#traits : 'FamixGTETStructuralEntity',
+	#classTraits : 'FamixGTETStructuralEntity classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 

@@ -17,6 +17,7 @@ Trait {
 		'#annotatedEntity => GTEOne type: #FamixGTETWithAnnotationInstances opposite: #annotationInstances'
 	],
 	#traits : 'GTETEntityMetaLevelDependency',
+	#classTraits : 'GTETEntityMetaLevelDependency classTrait',
 	#category : #'Graphoose-Traits-Traits'
 }
 
